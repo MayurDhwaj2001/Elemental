@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPLOAD</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/template/template.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <!-- <div class="navcontainer"> -->
+        <div class="logocontainer">
+            <h2 href="">ELEMENTS</h2>
+        </div>
+        <div class="linkscontainer">
+            <a class="button2 glow" aria-current="page" href="/">LOGOUT</a>
+        </div>
+        <!-- </div> -->
+
+    </div>
+
+    <div class="body2">
+        <div class="left2">
+
+            <form class="form2">
+                <div class="formborder">
+
+                    <h2 class="title">UPLOAD</h2>
+
+                    <label for="id" class="title2">HTML
+                    </label>
+                    <textarea class="glow" id="html-code" onkeyup="run()"></textarea>
+
+                    <label for="pass" class="title2">CSS
+                    </label>
+                    <textarea class="glow" id="css-code" onkeyup="run()"></textarea>
+
+                    <label for="pass" class="title2">JS
+                    </label>
+                    <textarea class="glow" id="js-code" onkeyup="run()"></textarea>
+
+                    <div class="formbtn">
+                        <a class="button3 glow" onclick="run()">PREVIEW</a>
+                        <button type="submit" class="button2 glow">UPLOAD</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="right2">
+            <iframe id="output"></iframe>
+
+        </div>
+    </div>
+
+
+    <div class="copied" id="toast">
+        <h2 class="m0">Copied!</h2>
+    </div>
+
+
+
+    <script src="../js/script.js"></script>
+    <script src="../js/iframe.js"></script>
+
+</body>
+
+</html>

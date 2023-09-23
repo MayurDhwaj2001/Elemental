@@ -1,0 +1,58 @@
+/* ----------- first begin--------- */
+.main-test1 {
+  margin: 0px;
+  font-size: 190px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(../../img/1.png);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: inline-block;
+}
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main-test1 {
+    font-size: 90px;
+  }
+}
+/* ----------- first end--------- */
+
+/* ----------- second begin--------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.tagcloud {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+  color: #fff;
+  margin-left: 0px;
+}
+.tagcloud--item:hover {
+  color: #91ff00;
+}
+
+/* ----------- second end--------- */
+/* ----------- third begin--------- */
+
+#selection {
+  ::-moz-selection {
+    color: rgb(0, 0, 0);
+    background: #ff0000 !important;
+  }
+  ::selection {
+    color: rgb(0, 0, 0);
+    background: #ff0000 !important;
+  }
+}
+
+/* ----------- third end--------- */
